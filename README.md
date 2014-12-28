@@ -6,8 +6,8 @@ vehicle reservation system built using PHP (codeigniter framework)
 
 Collaborators
 --------------
-<a href="http://github.com/subodhu">Subodh Upreti</a><br>
-<a href="http://github.com/sudilshr">Sudil Shrestha</a><br>
+Subodh Upreti (<a href="http://github.com/subodhu">subodhu</a>)<br>
+Sudil Shrestha (<a href="http://github.com/sudilshr">sudilshr</a>)<br>
 Sujan Byanjankar<br>
 Diwash Adhikari<br>
 Suman Bhandari<br>
