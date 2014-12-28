@@ -1,0 +1,12 @@
+# RewriteEngine on
+# RewriteRule ^$ /index.php [L]
+# RewriteCond $1 !^(index\.php|assets|robots\.txt|favicon\.ico)
+# RewriteRule ^(.*)$ /index.php/$1 [L] 
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond $1 !^(index\.php|robots\.txt)
+RewriteRule ^(.*)$ index.php/$1
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(applicati0n|syst3m) index.php/$1 [L]
